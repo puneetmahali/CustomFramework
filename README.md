@@ -11,5 +11,3 @@ Creating frameworks is a relatively easy task, and using them can be just as eas
 Steps to create the Custom Framework - SDk in Swift & Xcode.
 
 1. Let’s open Xcode and create a new project. Select the iOS tab, scroll down to Framework & Library and choose Framework.
-![Framework Creation](/Users/puneetmahali/Desktop/Framework.png)
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
