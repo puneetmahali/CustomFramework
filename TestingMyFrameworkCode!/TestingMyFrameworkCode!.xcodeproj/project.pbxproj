@@ -13,8 +13,8 @@
 		F1082F1024BF2E8A009077E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1082F0E24BF2E8A009077E3 /* Main.storyboard */; };
 		F1082F1224BF2E8A009077E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1082F1124BF2E8A009077E3 /* Assets.xcassets */; };
 		F1082F1524BF2E8A009077E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1082F1324BF2E8A009077E3 /* LaunchScreen.storyboard */; };
-		F1082F1E24BF2F76009077E3 /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1082F1C24BF2EFE009077E3 /* CustomFramework.framework */; };
-		F1082F1F24BF2F76009077E3 /* CustomFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1082F1C24BF2EFE009077E3 /* CustomFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1082F2324BFA7BC009077E3 /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1082F2124BFA77A009077E3 /* CustomFramework.framework */; };
+		F1082F2424BFA7BC009077E3 /* CustomFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1082F2124BFA77A009077E3 /* CustomFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F1082F1F24BF2F76009077E3 /* CustomFramework.framework in Embed Frameworks */,
+				F1082F2424BFA7BC009077E3 /* CustomFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,7 +40,7 @@
 		F1082F1124BF2E8A009077E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1082F1424BF2E8A009077E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1082F1624BF2E8A009077E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1082F1C24BF2EFE009077E3 /* CustomFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CustomFramework.framework; sourceTree = "<group>"; };
+		F1082F2124BFA77A009077E3 /* CustomFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CustomFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1082F1E24BF2F76009077E3 /* CustomFramework.framework in Frameworks */,
+				F1082F2324BFA7BC009077E3 /* CustomFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 			children = (
 				F1082F0724BF2E8A009077E3 /* TestingMyFrameworkCode! */,
 				F1082F0624BF2E8A009077E3 /* Products */,
-				F1082F1C24BF2EFE009077E3 /* CustomFramework.framework */,
+				F1082F2124BFA77A009077E3 /* CustomFramework.framework */,
 			);
 			sourceTree = "<group>";
 		};

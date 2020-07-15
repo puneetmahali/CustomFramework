@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     let randomString = RandomGenerator.string()
     let randomInt = RandomGenerator.integer()
+    let addition = RandomGenerator.addition(x: 25, y: 20)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
         //Print some Random Strings & integers
         print("This is the Random Stirng:", randomString)
         print("This is the Random Integer:", randomInt)
+        print(addition)
     }
 
 

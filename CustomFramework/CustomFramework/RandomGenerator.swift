@@ -19,4 +19,8 @@ public class RandomGenerator {
         return Int(arc4random())
     }
     
+    public static func addition(x:Int, y:Int) -> Int {
+        return x + y
+    }
+    
 }
